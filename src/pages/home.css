@@ -1,0 +1,19 @@
+.deleteMe{
+
+    text-align: center;
+    height: 45px;
+    padding: 0 5px 0 5px;
+    line-height: 5px;
+} 
+
+.deleteMe p {
+    
+    font-size: 17px;
+}
+
+
+.deleteMe a {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
