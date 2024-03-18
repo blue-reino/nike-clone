@@ -1,7 +1,7 @@
 
 body {
 
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Navbar CSS */
@@ -148,4 +148,32 @@ body {
     text-decoration: none;
     pointer-events: none;
 
+}
+
+/* 1080p Display */
+@media (max-width: 1920px) {
+    .topNav {
+        
+        left: 1490px;
+       
+    }  
+
+    .shoppingBag{
+        left: 295px;
+    }
+
+    .heartIcon{
+        left: 285px;
+    }
+
+    .searchButton{
+        left: 240px;
+    }
+    .headerNav{
+        left: 600px;
+    }
+    .secondaryHeader{
+        padding: 0 10px 20px 40px;
+        
+    }
 }
